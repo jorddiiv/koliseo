@@ -1,0 +1,42 @@
+.logoNavBar {
+    width: 250px; 
+    height: auto; 
+    margin: -75px;
+    margin-left: 10px;
+}
+
+.list {
+    margin-right: 200px;
+}
+.nav-item {
+    font-size: 15px;
+}
+.nav-link:hover{
+    color: rgb(82, 249, 87);
+   
+}
+.nav-link{
+    color: white;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+nav, .dropdown-menu{
+    background-color: rgb(0, 0, 0);
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+      transition: transform 0.3s ease;
+    }
+  
+    .navbar-nav .nav-link:hover {
+      transform: scale(1.2);
+    }
+  }
+
+.dropdown-menu {
+    width: 400px;
+}
+  
